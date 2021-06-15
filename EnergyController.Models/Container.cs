@@ -4,7 +4,7 @@ namespace EnergyController.Models
 {
 	public class Container
 	{
-        
+        // esto es un cambio 
             public int ContainerId { get; set; }
             public string ProductDimensions { get; set; }
             public string ItemWeight { get; set; }
@@ -13,7 +13,7 @@ namespace EnergyController.Models
             public string ItemModelNumber { get; set; }
             public double Capacity { get; set; }
             public string Owner { get; set; }
-            public string Location { get; set; }
+            public string Locacion { get; set; }
 
 
         public int WorkshopId { get; set; }

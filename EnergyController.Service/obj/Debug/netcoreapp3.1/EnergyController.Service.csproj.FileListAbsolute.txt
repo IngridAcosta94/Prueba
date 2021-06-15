@@ -1,0 +1,11 @@
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\bin\Debug\netcoreapp3.1\EnergyController.Service.deps.json
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\bin\Debug\netcoreapp3.1\EnergyController.Service.dll
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\bin\Debug\netcoreapp3.1\EnergyController.Service.pdb
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\bin\Debug\netcoreapp3.1\EnergyController.Models.dll
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\bin\Debug\netcoreapp3.1\EnergyController.Models.pdb
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\obj\Debug\netcoreapp3.1\EnergyController.Service.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\obj\Debug\netcoreapp3.1\EnergyController.Service.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\obj\Debug\netcoreapp3.1\EnergyController.Service.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\obj\Debug\netcoreapp3.1\EnergyController.Service.csproj.CopyComplete
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\obj\Debug\netcoreapp3.1\EnergyController.Service.dll
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Service\obj\Debug\netcoreapp3.1\EnergyController.Service.pdb

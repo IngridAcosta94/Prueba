@@ -1,0 +1,70 @@
+﻿@page
+@model EnergyUI.Pages.Containers.IndexModel
+@{
+
+    ViewData["Containers"] = "Index";
+
+
+
+
+}
+<h1>Containers</h1>
+<h3>@Model.Containers.Count()</h3>
+@if (Model.Containers.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(x =>
+                    x.Containers.FirstOrDefault().ItemModelNumber)
+            </th>
+            <th scope="col">@Html.DisplayNameFor(x => x.Containers.FirstOrDefault().Owner)</th>
+            <th scope="col">
+                @Html.DisplayNameFor(x =>
+x.Containers.FirstOrDefault().Location)
+        </th>
+        <th scope="col">@Html.DisplayNameFor(x => x.Containers.FirstOrDefault().ASIN)</th>
+        <th scope="col">
+            @Html.DisplayNameFor(x =>
+x.Containers.FirstOrDefault().Capacity)
+    </th>
+    <th scope="col">
+        @Html.DisplayNameFor(x =>
+x.Containers.FirstOrDefault().ProductDimensions)
+</th>
+<th scope="col">
+    @Html.DisplayNameFor(x =>
+x.Containers.FirstOrDefault().ItemWeight)
+</th>
+<th scope="col">
+    @Html.DisplayNameFor(x =>
+x.Containers.FirstOrDefault().Manufacturer)
+</th>
+<th scope="col"></th>
+</tr>
+</thead>
+        <tbody>
+            @foreach (var item in Model.Containers)
+            {
+                <tr>
+                    <th scope="row">@Html.DisplayFor(m => item.ItemModelNumber)</th>
+                    <td>@Html.DisplayFor(m => item.Owner)</td>
+                    <td>@Html.DisplayFor(m => item.Location)</td>
+                    <td>@Html.DisplayFor(m => item.ASIN)</td>
+                    <td>@Html.DisplayFor(m => item.Capacity)</td>
+                    <td>@Html.DisplayFor(m => item.ProductDimensions)</td>
+                    <td>@Html.DisplayFor(m => item.ItemWeight)</td>
+                    <td>@Html.DisplayFor(m => item.Manufacturer)</td>
+                    <td><button class="btn btn-success btn-sm">Editar</button></td>
+                </tr>
+			 }
+            </tbody>
+</table>
+}
+else
+{
+<div class="border text-center">
+    <p>No existen contenedores registrados.</p>
+</div>
+}

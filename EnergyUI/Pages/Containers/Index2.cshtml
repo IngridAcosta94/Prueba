@@ -1,0 +1,35 @@
+﻿@page
+@model EnergyUI.Pages.Containers.Index2Model
+@{
+	ViewData["Title"] = "Index2";
+}
+
+<h1 class="text-center text-info">Containers</h1>
+<div class="card-deck">
+	@foreach (var item in Model.Containers)
+	{
+		var imgPath = $"~/images/{(string.IsNullOrEmpty(item.PhotoBusiness) ? "nonWorkshops.jpg": item.PhotoBusiness)}";
+    <div class="card bg-light m-3" style="min-width:18rem; max-width:30.5%">
+		<div class="card-header">
+			<h4>@item.Owner</h4>
+		</div>
+		<img class="card-img-top img-thumbnail imgThumbnail" src="@imgPath"
+			 alt="@item.ItemModelNumber" asp-append-version="true">
+		<div class="card-body">
+			<h5 class="card-title" dis>@item.ItemModelNumber</h5>
+			<p class="card-text">
+				<ul>
+					<li>Capacity: @item.Capacity l</li>
+					<li>Dimensions: @item.ProductDimensions cm</li>
+					<li>Weight: @item.ItemWeight kg</li>
+				</ul>
+			</p>
+		</div>
+		<div class="card-footer text-center">
+			<a href="#" class="btn btn-info m-1">View</a>
+			<a href="#" class="btn btn-primary m-1">Edit</a>
+			<a href="#" class="btn btn-danger m-1">Delete</a>
+		</div>
+	</div>
+	 }
+</div>

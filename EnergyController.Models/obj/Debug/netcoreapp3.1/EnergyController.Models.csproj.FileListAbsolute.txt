@@ -1,0 +1,8 @@
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\bin\Debug\netcoreapp3.1\EnergyController.Models.deps.json
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\bin\Debug\netcoreapp3.1\EnergyController.Models.dll
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\bin\Debug\netcoreapp3.1\EnergyController.Models.pdb
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\obj\Debug\netcoreapp3.1\EnergyController.Models.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\obj\Debug\netcoreapp3.1\EnergyController.Models.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\obj\Debug\netcoreapp3.1\EnergyController.Models.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\obj\Debug\netcoreapp3.1\EnergyController.Models.dll
+C:\Users\Usuario\source\repos\EnergyController\EnergyController.Models\obj\Debug\netcoreapp3.1\EnergyController.Models.pdb
